@@ -109,7 +109,7 @@ main a {
     border: solid 1px #888; 
     padding: .3rem;
     width: 250px;
-    border-radius: .rem;
+    border-radius: .3rem;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 200;
 }
