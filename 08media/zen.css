@@ -178,7 +178,7 @@ div.gallery {
     flex-wrap: wrap;
 }
 div.gallery img{
-    width: 98%
+    width: 98%;
     height: auto;
 }
 div.gallery img:hover {
@@ -213,7 +213,7 @@ div.gallery figcaption {
     border: solid 1px #F21F0C; 
     padding: .3rem;
     width: 250px;
-    border-radius: .rem;
+    border-radius: .2rem;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 200;
 }
