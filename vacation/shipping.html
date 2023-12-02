@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head> 
+        <title>Budget Vacations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about how this Veteran owned and operated company started">
+        <link rel="stylesheet" href="vacation.css">
+        
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+        
+        
+        <meta name="author" content="Danny Beekman">
+    
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+        
+            <div>
+            <h1>Budget Vacations</h1>
+            <p>Go and see the World</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+    <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="locations.html">Vacation Locations</a></li>
+                <li><a href="packages.html">Vacation Packages</a></li>
+                <li class="active"><a href="shipping.html">Orders</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+   
+
+        <!-- Start of the page content -->        
+        <main>
+        <!-- start the page header -->
+    <header>
+        <h1>Shipping Options </h1>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">About Us</a></li>
+            <li class="active"><a href="shipping.html">Request a Delivery</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <body> 
+        <h1>Vacation Package Delivery</h1>
+        <form method="get" class="myForm" action="thankyou.html">
+        
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label> <label>Last Name*<input type="text" name="lname" required></label>   
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="123-867-5309"></label> </fieldset>    
+            
+         <fieldset>
+            <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" value="overnight">Overnight Delivery (2hrs)</label>
+             <label><input type="radio" name="method" value="FedEx">Fed Ex Delivery (4hrs)</label>
+             <label><input type="radio" name="method" value="USPS">USPS Delivery (6hrs)</label>
+             
+        </fieldset>   
+            
+        <fieldset>
+        <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="chosen">
+            Front Porch</label>
+            <label><input type="checkbox" name="deck" value="chosen">
+            Back Deck</label>
+            <label><input type="checkbox" name="driveway" value="chosen">
+            Driveway</label>
+            <label><input type="checkbox" name="garage" value="chosen">
+            Inside the Garage</label>
+        
+        <label>Preferred Delivery Time
+            <select name="time">
+            <option value="none">Please Select</option> 
+            <option value="morning">Between 7:00am and 11:00am</option>    
+            <option value="noon">Between 11:00am and 2:00pm</option>     
+            <option value="afternoon">Between 2:00pm and 5:00pm</option>     
+            <option value="evening">Between 5:00pm and 8:00pm</option> 
+            </select>
+        </label>
+            
+            </fieldset>
+            
+        <label>Comments
+            <textarea name="comments"></textarea>
+            
+            </label>
+            
+  
+        <input type="submit" value="Send Delivery Request">    
+        </form>   
+    
+     <!-- Start of the page footer -->
+       <footer>
+        <p>&copy; 2023 &bull;Budget Vacations &bull; <a href="mailto:dannytbeekman@budgetvacation.com">Email Us</a></p>
+        
+        </footer>
+        
+    </body>
+</html>
