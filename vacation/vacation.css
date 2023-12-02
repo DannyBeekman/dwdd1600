@@ -210,7 +210,7 @@ div.gallery figcaption {
 }
 .myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
 {
-    border: solid 1px #F21F0C; 
+    border: solid 1px #2f3133; 
     padding: .3rem;
     width: 250px;
     border-radius: .2rem;
